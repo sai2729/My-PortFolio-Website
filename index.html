@@ -238,7 +238,7 @@
     <div class="about-grid">
       <div class="reveal">
         <p class="lede">A founding engineer who likes owning the <b>whole stack</b> — from the Firestore data model to the SwiftUI screen a front-desk clerk taps a thousand times a day.</p>
-        <p class="about-body">Over nearly four years I've gone from enterprise Java/Spring at TCS, through an M.S. in Computer Science, to majority-authoring a production hospitality SaaS at Workcuit&nbsp;AI — iOS, an Angular PWA, a Node/Firestore backend, a Chrome extension, and an applied-AI assistant. I care about systems that hold up under real operational load, clean architecture, and shipping things people actually use.</p>
+        <p class="about-body">Over nearly five years I've gone from enterprise Java/Spring at TCS, through an M.S. in Computer Science, to majority-authoring a production hospitality SaaS at Workcuit&nbsp;AI — iOS, an Angular PWA, a Node/Firestore backend, a Chrome extension, and an applied-AI assistant. I care about systems that hold up under real operational load, clean architecture, and shipping things people actually use.</p>
       </div>
       <div class="stats reveal">
         <div class="stat"><div class="n"><span>~4</span></div><div class="l">Years building</div></div>
@@ -257,7 +257,7 @@
       <div class="job reveal">
         <div class="job-top">
           <h3>Software Engineer, Founding Team <span class="co">· Workcuit AI</span><span class="tag-live">● live</span></h3>
-          <span class="when">May 2025 — Present</span>
+          <span class="when">Mar 2025 — Present</span>
         </div>
         <div class="where">Illinois (Remote)</div>
         <p class="intro">Founding engineer and majority author of <b style="color:var(--paper)">StayCuit</b> — a multi-tenant hospitality SaaS live across 3 production partner properties — built end-to-end across iOS, web, backend, a Chrome extension, and an applied-AI layer (88 of 119 commits; reviewed PRs from 5 contributors).</p>
@@ -268,6 +268,20 @@
           <div class="hl-item"><div class="hl-tag">Web</div><p>Built the <b>Angular 17 + PrimeNG PWA</b>: role-aware, lazy-loaded, offline-capable — including a guest self-service iPad kiosk with barcode ID scanning, signed reg-card PDFs, and an OCR check-in pipeline (<b>ZXing + OpenCV.js</b>).</p></div>
           <div class="hl-item"><div class="hl-tag">Chrome</div><p>Sole author of a <b>Manifest V3</b> Chrome extension integrating StayCuit with HotelKey PMS — TypeScript + webpack, MutationObserver SPA tracking, and the offscreen-document pattern to keep Firebase Auth alive across service-worker restarts.</p></div>
           <div class="hl-item"><div class="hl-tag">Applied AI</div><p>Designed a <b>multi-agent assistant</b> for owners/managers: an orchestration layer that routes simple queries to a small model and escalates complex ones to <b>Claude</b>, custom <b>MCP servers</b> for scoped tool access, self-hosted <b>Nemotron</b> on per-property VPS for token-heavy reports, and grounding skills that reject un-attributable answers.</p></div>
+        </div>
+      </div>
+
+      <div class="job reveal">
+        <div class="job-top">
+          <h3>Software Engineer Intern <span class="co">· Workcuit AI</span></h3>
+          <span class="when">May 2024 — Dec 2024</span>
+        </div>
+        <div class="where">Illinois (Remote)</div>
+        <p class="intro">Joined during the early research and architecture phase — prototyping the technical foundations the production platform was later built on. Promoted to <b style="color:var(--paper)">Software Engineer, Founding Team</b> after completing my M.S.</p>
+        <div class="hl">
+          <div class="hl-item"><div class="hl-tag">Architecture</div><p>Researched and prototyped the foundational <b>multi-tenant data model</b> — evaluating Firestore <b>collectionGroup</b> structures with composite tenant + date keys for efficient fan-out reads.</p></div>
+          <div class="hl-item"><div class="hl-tag">Backend</div><p>Stood up the initial <b>Express.js + Firestore</b> scaffolding (Node 16+) — early controller/service layering, auth flows, and logging conventions the production API grew from — and prototyped the condition-based dispatch pattern behind the event-registry engine.</p></div>
+          <div class="hl-item"><div class="hl-tag">Applied AI</div><p>Led early applied-AI research — evaluating <b>multi-agent orchestration</b>, small-model-vs-<b>Claude</b> escalation routing, and the <b>Model Context Protocol (MCP)</b> for scoped tool access.</p></div>
         </div>
       </div>
 
